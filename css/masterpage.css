@@ -1,0 +1,114 @@
+*{
+	margin:0;
+	padding:0;
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+body{
+background-color:white;
+}
+#wrapper {
+	width: 1200px;
+	margin:auto;
+	background:url(../images/nengo.jpg) repeat;
+}
+#header{
+	background-color:red;
+	width:100%;
+	height:220px;
+	
+}
+#logo{
+	width:100%;
+	height:190px;
+	background-color:blue;
+}
+#menubar{
+	width:100%;
+	height:35px;
+	background-color:yellow;
+	background:url(../images/menu-bg.png) repeat-x;
+}
+#menubar li {
+
+}
+#menubar li a{
+	float:left;
+	padding:7px 10px;
+	color:white;
+	font-family: tahoma;
+	background:url(../images/divider.png) no-repeat;
+	background-position: right;
+	width: 14%;
+	text-align: center;
+}
+#menubar li:last-child a{
+	background: none;
+}
+#menubar li a:hover{
+		background:url(../images/menu-bg-hover.png) repeat-x;
+}
+#hotbooks{
+	width:100%;
+	height:170px;
+	margin-top:10px;
+	background:url(../images/sachhot.png);
+	padding-bottom:10px;
+	margin-bottom:10px;
+	
+}
+#center{
+	overflow:hidden;
+	width:100%;
+	
+	
+}
+#center #categories{
+	width:15%;
+	float:left;
+	
+	background:url(../images/green-fibers.png) repeat;
+	text-align:center;
+	z-index:1;
+}
+#center #content{
+	width:85%;
+	float:left;
+	box-shadow: 0px 0px 40px 0px #808080;
+	text-align:center;
+	z-index:0;
+}
+#footer{
+	width:100%;
+	background-color:#99FFCC;
+	height:150px;
+}
+#footer #content{
+	margin:auto;
+	width:1200px;
+	background-image:url(../images/nenduoi.png) repeat-x;
+}
+.fixed{
+	position:fixed;
+	top:0;
+	width:1200px !important;
+	z-index:100;
+}
+ .hyperlinkButton {
+    background-color: #333e40;
+    /*border-radius: 4px;*/
+    text-decoration: none;
+    color: white;
+   padding:3px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+}
+ .hyperlinkButton:hover {
+    color:#FF9900;
+	
+}

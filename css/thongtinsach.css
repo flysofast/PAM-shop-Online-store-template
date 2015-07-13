@@ -1,0 +1,9 @@
+/* CSS Document */
+
+#thongtinsach .info {
+    text-align: left;
+    vertical-align: top;
+    background: url(../images/pool_table2.png) repeat;
+    color: #FFF;
+    padding: 2px 3px;
+}

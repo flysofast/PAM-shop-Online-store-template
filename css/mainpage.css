@@ -1,0 +1,64 @@
+
+#center #content td > div:hover{
+	background-color:#FFCC00;
+	cursor:pointer;
+}
+#center #content .booktitle{
+	color:Green;
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+}
+#center #content .author{
+	font-size:14px;
+}
+#center #content .price{
+	color: orangered; 
+	font-weight: bold; 
+	font-size: 14px
+}
+#center #content td > div{
+	width: 280px; 
+	text-align: center; 
+	padding-top: 5px;
+	padding-bottom: 15px;
+}
+#center #content td > div > img{
+height:130px;border-width:0px;
+}
+#center #content .short-right-moving-animation:hover {
+    position: relative;
+    animation: shortrightmoving 0.5s infinite ease;
+    -webkit-animation: shortrightmoving 0.5s infinite ease;
+	cursor:default;
+}
+
+@keyframes shortrightmoving {
+    from {
+        left: 0px;
+        color: green;
+    }
+
+    to {
+        left: 5px;
+        color: lightgreen;
+    }
+}
+
+@-webkit-keyframes shortrightmoving {
+    from {
+        left: 0px;
+        color: green;
+    }
+
+    to {
+        left: 5px;
+        color: lightgreen;
+    }
+}
+
+#center #content #pagelist a{
+	padding-left:5px;
+	padding-right:5px;
+	font-weight:bold;
+}
